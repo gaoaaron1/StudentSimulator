@@ -1,0 +1,164 @@
+
+ui.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+leaderboard_down
+  rotate: false
+  xy: 391, 736
+  size: 128, 101
+  orig: 128, 101
+  offset: 0, 0
+  index: -1
+leaderboard_up
+  rotate: false
+  xy: 261, 606
+  size: 128, 101
+  orig: 128, 101
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 191, 839
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+button_rounded_down
+  rotate: false
+  xy: 1, 521
+  size: 128, 128
+  split: 32, 32, 31, 31
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+button_rounded_up
+  rotate: false
+  xy: 321, 839
+  size: 128, 128
+  split: 32, 32, 31, 31
+  pad: 0, 0, 0, 0
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+home
+  rotate: false
+  xy: 1, 391
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+loading_circle
+  rotate: false
+  xy: 451, 839
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+music_off_down
+  rotate: false
+  xy: 1, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+music_off_up
+  rotate: false
+  xy: 581, 839
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+music_on_down
+  rotate: false
+  xy: 1, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+music_on_up
+  rotate: false
+  xy: 711, 839
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+options_down
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+options_up
+  rotate: false
+  xy: 841, 839
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 131, 651
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 1, 651
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+tutorial_down
+  rotate: false
+  xy: 131, 521
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+tutorial_up
+  rotate: false
+  xy: 131, 391
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+volume_off_down
+  rotate: false
+  xy: 131, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+volume_off_up
+  rotate: false
+  xy: 131, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+volume_on_down
+  rotate: false
+  xy: 131, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+volume_on_up
+  rotate: false
+  xy: 261, 709
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+button9patch
+  rotate: false
+  xy: 1, 781
+  size: 188, 186
+  split: 93, 93, 93, 92
+  orig: 188, 186
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+{
+	"SliderStyle": {
+		"default-horizontal": {
+			"knobOver": "sliderKnob",
+			"knobDown": "sliderKnobDown",
+			"background": "sliderBackground",
+			"knob": "sliderKnob"
+		}
+	}
+}

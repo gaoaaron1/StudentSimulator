@@ -1,15 +1,22 @@
 package com.game.student;
 
-import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
-import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
+import com.badlogic.gdx.Files;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.game.student.Simulator;
+import com.game.student.Const;
 
-// Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument
 public class DesktopLauncher {
+	// RUN THIS CODE TO RUN OUR ORIGINAL CODE
 	public static void main (String[] arg) {
-		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
-		config.setForegroundFPS(60);
-		config.setTitle("Student Simulator");
-		new Lwjgl3Application(new Simulator(), config);
+		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.width = Const.V_WIDTH / 2;
+		config.height = Const.V_HEIGHT / 2;
+		config.foregroundFPS = 100;
+		config.resizable = true;
+		config.addIcon("icon_128.png", Files.FileType.Internal);
+		config.addIcon("icon_32.png", Files.FileType.Internal);
+
+		new LwjglApplication(new Simulator(), config);
 	}
 }

@@ -1,0 +1,13 @@
+{
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button_rounded_up
+		down: button_rounded_down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		down: button_rounded_down
+	}
+}
+}
